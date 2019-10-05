@@ -159,8 +159,7 @@ img {
   color: #c5c6c7; }
 
 .card {
-  display: flex;
-  justify-content: space-between; }
+  margin-left: 2em; }
 
 @media (max-width: 991px) {
   .blurb {

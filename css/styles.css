@@ -9,9 +9,13 @@ html, body {
   margin: 0;
   /* font-family:'Montserrat', sans-serif; */ }
 
+.container {
+  border-radius: 8px; }
+
 .navbar {
   background-color: #45a29e;
-  color: #c5c6c7; }
+  color: #c5c6c7;
+  border-radius: 8px; }
 
 #animate1 {
   transition: transform 0.3s ease-out; }
@@ -42,9 +46,8 @@ hr {
 .panel {
   height: 100%;
   width: 100%; }
-
-.panel.green {
-  margin-bottom: 400px; }
+  .panel .green {
+    margin-bottom: 400px; }
 
 .skillbar {
   position: relative;
@@ -67,13 +70,15 @@ hr {
   color: #1f2833;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px; }
-
-.skillbar-title span {
-  display: block;
-  background: rgba(62, 148, 144, 0.4);
-  padding: 0 20px;
-  height: 35px;
-  border-radius: 12px; }
+  .skillbar-title span {
+    display: block;
+    background: rgba(62, 148, 144, 0.4);
+    padding: 0 20px;
+    height: 35px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
 
 .skillbar-bar {
   height: 35px;
@@ -156,10 +161,12 @@ img {
 
 .contact {
   background-color: #45a29e;
-  color: #c5c6c7; }
+  color: #c5c6c7;
+  border-radius: 8px; }
 
 .card {
-  margin-left: 2em; }
+  margin-left: 2em;
+  width: 18rem; }
 
 @media (max-width: 991px) {
   .blurb {
